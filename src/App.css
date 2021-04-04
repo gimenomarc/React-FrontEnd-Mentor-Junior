@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+:root{
+  font-size: 62.5%;
+  --VeryDarkBlue: hsl(230, 17%, 14%);
+  --Green: hsl(137, 59%, 50%);
+  --Red: hsl(0, 100%, 50%);
+  --White: hsl(0, 0%, 100%);
+  --LetterColor: #8087ab;
+}
+
+.textColor-gray{
+  color: var(--LetterColor);
+}
+
+.textColor-red{
+  color: var(--Red);
+}
+
+.textColor-green{
+  color: var(--Green);
+}
+
+.textColor-white{
+  color: var(--White);
+}
+
+.text-xs{
+  font-size: 1rem;
+}
+
+.text-x{
+  font-size: 1.5rem;
+}
+
+.text-xl{
+  font-size: 2rem;
+}
+
+.text-xxl{
+  font-size: 3rem;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body,
+p,
+a,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  background-color: var(--VeryDarkBlue);
+}
+
+.header{
+  background-color: #20222f;
+  color: white;
+  padding: 2rem;
+}
+
+.header__title{
+  text-align: left;
+  padding-bottom: 4rem;
+}
+
+.header__dark{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.card {
+  border: 1px solid black;
+  max-width: 18rem;
+  margin: 2rem auto;
+  background-color: #20222f;
+  padding: 1rem 5rem;
+  border-radius: 8px;
+}
+
+.card div {
+  padding: 1rem 0;
+}
+
+.followers{
+  letter-spacing: 0.3rem;
+}
+
+.card__socialName{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+.card__socialName p{
+  padding: 0 1rem;
+}
+
+.overview{
+  color: white;
+}
+
+.cardToday{
+  background-color: #20222f;
+  border: 1px solid black;
+  max-width: 15rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.firstColumn{
+  text-align: left;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.secondColumn{
+  text-align: right;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
